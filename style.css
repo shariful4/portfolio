@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.main-section h1 {
+    font-size: 50px;
+
+}
+
+.main-section .portfolio {
+    font-size: 50px;
+    color: orangered;
+}
+
+.main-section h3 {
+    font-size: 30px;
+    color: #696969
+}
+
+.main-section p {
+    color: #696969
+}
+
+.main-section {
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 2%;
+}
+
+.main-section img {
+    width: 100%;
+}
+
+.main-banner {
+    background-image: url("images/top-banner.png");
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.btn-main {
+    text-decoration: none;
+    padding: 8px 20px;
+    border: 3px solid #e145453b;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, salmon, orange);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 14px;
+}
+
+.btn-main:hover {
+    color: black;
+}
+
+.body-section {
+    margin-top: 250px;
+    background-image: url("images/dream-bg.png");
+    height: 605px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.second-section {
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 2%;
+}
+
+.second-section img {
+    width: 100%;
+}
+
+.second-section h2 {
+    font-size: 50px;
+}
+
+.second-section h3 {
+    font-size: 30px;
+    color: #696969
+}
+
+.second-section p {
+    color: #696969
+}
+
+.experiences {
+    height: 500px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.heading {
+    font-size: 50px;
+    color: tomato;
+    padding-left: 55px;
+}
+
+.experience-section {
+    width: 40%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 2%;
+
+}
+
+.experience-content {
+    border-radius: 5px;
+    box-shadow: 10px 9px 40px grey;
+    background-color: white;
+    height: 70%;
+}
+
+.experience-section h2 {
+    font-size: 40px;
+}
+
+.experience-section h3 {
+    font-size: 25px;
+    color: tomato;
+}
+
+.experience-section p {
+    color: gray;
+    font-size: 18px;
+    text-align: justify;
+    width: 90%;
+}
+
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: gray;
+}
